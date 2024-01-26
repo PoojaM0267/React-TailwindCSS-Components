@@ -3,16 +3,7 @@ import React from 'react'
 const Grid = () => {
   return (
     <div>
-        {/* <div class="grid grid-cols-6 gap-4">
-            <div>01</div>
-            <div>02</div>
-            <div>03</div>
-            <div>04</div>
-            <div>05</div>
-            <div>06</div>
-        </div> */}
-
-            <table class="table-auto border border-black p-4 m-4 mx-12">
+         <table class="table-auto border border-black p-4 m-4 mx-12">
             <thead className='p-4 m-4 border border-black bg-gray-500 text-white'>
                 <tr>
                 <th className='p-4 m-4 border border-black'>Song</th>
